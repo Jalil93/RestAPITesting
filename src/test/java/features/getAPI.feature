@@ -6,7 +6,7 @@ Feature: Testing GET api
 
   Scenario: Get user details
     Given url 'https://gorest.co.in/public/v2/users'
-    And path '4461722'
+    And path '4496513'
     When method GET
     Then status 200
     * print response
@@ -14,7 +14,7 @@ Feature: Testing GET api
     * print jsonResponse
     * def name = jsonResponse.name
     * print name
-    * match name == 'Niranjan Guneta'
+    * match name == 'Arun Bhattacharya'
     * match name != 'Jalil'
 #  "name": "Niranjan Guneta",
 
